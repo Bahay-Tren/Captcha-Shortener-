@@ -5,7 +5,7 @@ Eto ay compatible sa reCAPTCHA v2, hCaptcha, Cloudflare Turnstile at Friendly Ca
 Paano gamitin:
 * Copy mo itong koda na ito
 ```HTML
-<script src="https://github.com/Bahay-Tren/Captcha-Shortener-/blob/main/main.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/Bahay-Tren/Captcha-Shortener-@main/main.js"></script>
 <captcha-shortener type="h-captcha" frontkey="key">
 ```
 * O pwede din self hosted
