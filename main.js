@@ -19,5 +19,5 @@ class CaptchaShortener extends HTMLElement{
     <div class="${type}" data-sitekey="${frontkey}" data-theme="${theme}" data-callback="${callnormal}" data-error-callback="${callerror}" data-size="${size}" data-language="${lang}"></div>`;
   }
 }
-customElement.define("captcha-shortener", 
+customElements.define("captcha-shortener", 
 CaptchaShortener);
